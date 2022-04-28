@@ -1,0 +1,57 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body{
+    background-image: url(img/2.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 147, 20);
+}
+h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex > div {
+    flex: 1 1 150px;
+    margin: 15px;
+    padding: 5px;
+    background: red ;
+}
+.header{
+    
+    background-image:  linear-gradient( rgb(41, 131, 172), rgb(9, 54, 64));
+    display:  flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu li a {
+    padding: 10px;
+}
+

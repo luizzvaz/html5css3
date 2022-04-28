@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            width: 300px;
+            background-color: rgb(106, 89, 89);
+        }
+        div:active{
+            color: yellow;
+            background-color: rgb(109, 91, 125);
+        }
+       a {
+          font-weight: bolder; 
+        color: rgba(69, 110, 8, 0.718);
+        text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(13, 28, 235);
+        }
+      
+        a:visited{
+            color: rgba(228, 78, 78, 0.91);
+        } 
+         a:active{
+            color:rgb(62, 255, 14)
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkcyan;
+        }
+    </style>
+    <title>pseudos</title>
+</head>
+<body>
+    <div>test</div>
+    
+    <li><a href="https://www.youtube.com/watch?v=G5WEluK_Q1U&t=156s&ab_channel=AirFlowDifusores"> BMW 535i</a></li>
+    <li><a href="https://www.youtube.com/watch?v=YbM15H9Wj8o&ab_channel=AutoTopNL">audi s5 3.0 tsfi</a></li>
+    <li><a href="https://www.youtube.com/watch?v=yMVXCpY2phU&t=1037s&ab_channel=ACF"> bmw 640i</a></li>
+<p>
+    na css
+    # = id
+    . = class
+    > = children
+    : = pseudoclass
+    :: = pseudoelemento
+</p>
+</body>
+</html>

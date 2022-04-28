@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(128, 128, 128);
+}
+header{
+    color: rgb(58, 85, 108), rgb(61, 57, 57);
+    width: auto;
+    height: auto;
+    background-color: rgba(79, 79, 41, 0.688);
+}
+div{
+    background-color: rgb(131, 112, 89);
+}
+div#head{
+    background-color: rgb(104, 107, 60);
+}
+img{
+    border-radius: 50%;
+}

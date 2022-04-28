@@ -1,0 +1,39 @@
+body{
+    background: url(6.jpg);
+}
+header{
+    color: rgba(225, 103, 22, 0.708);
+    padding: 10px;
+    background-image: linear-gradient(rgba(156, 64, 14, 0.463), rgba(194, 76, 13, 0));
+    height: 150px;
+}
+div#cima{ padding: 15px;
+    width: 600px;
+    text-align: justify;
+    background-image: linear-gradient(rgba(156, 64, 14, 0.566),rgba(193, 114, 11, 0.067) );
+    
+}
+img#fosfo{
+    padding: 10px;
+    position: relative;
+    left: 1100px;
+    bottom: 90px;
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+}
+div{
+    padding: 15px;
+    width: 600px;
+    text-align: justify;
+    background-image: linear-gradient(to top ,  rgba(156, 64, 14, 0.566),rgba(193, 114, 11, 0.067) );
+}
+
+
+img#logo{
+    padding: 10px;
+    position: relative;
+    left: 1100px;
+    bottom: 90px;
+    border-radius: 50%;
+}
