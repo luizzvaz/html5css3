@@ -1,0 +1,24 @@
+body{
+    background-image: url(imagens/wallpaper005.jpg);
+    background-repeat: no-repeat;
+}
+div.quadrado{
+    display: inline-block;
+}
+div#fundo1{
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://burst.shopifycdn.com/photos/bright-yellow-brick.jpg?width=925&format=pjpg&exif=1&iptc=1);
+}
+div#fundo2{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+}
+
+div#fundo3{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
