@@ -1,0 +1,27 @@
+div.bloco{
+    margin: 25px;
+    height: 300px;
+    border: 1px solid rgb(85, 83, 83);
+    background-image: url(imagens/wallpaper003.jpg);
+}
+div#q1{
+    background-position: left top;
+}
+div#q2{
+    background-position: right top;
+}
+div#q3{
+    background-position: right bottom;
+}
+div#q4{
+    background-position: left  bottom;
+}
+div#q5{
+    background-position: center center;
+}
+div#q6{
+    background-position: right center;
+}
+div#q7{
+    background-position: left center;
+}

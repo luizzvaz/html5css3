@@ -1,0 +1,17 @@
+body{
+    background-image: url(https://burst.shopifycdn.com/photos/beach-waves-through-trees.jpg?width=925&format=pjpg&exif=1&iptc=1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(169, 193, 198);
+    background-size: cover;
+    height: 100vh;
+    
+}
+main{
+    background-color: aliceblue;
+    margin:  auto;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+
+}
