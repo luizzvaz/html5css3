@@ -1,11 +1,14 @@
 body{
-    background-image: url(https://burst.shopifycdn.com/photos/beach-waves-through-trees.jpg?width=925&format=pjpg&exif=1&iptc=1);
-    background-repeat: no-repeat;
-    background-position: center center;
     background-color: rgb(169, 193, 198);
+    background-image: url(https://burst.shopifycdn.com/photos/beach-waves-through-trees.jpg?width=925&format=pjpg&exif=1&iptc=1);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
-    
+    /* shorthand background
+    color > image > position > repeat >[size]> attachment
+    ex: black url() center no-repeat  cover fixed */
 }
 main{
     background-color: aliceblue;
@@ -13,5 +16,4 @@ main{
     padding: 10px;
     height: 250px;
     width: 300px;
-
 }
