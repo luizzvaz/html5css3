@@ -42,7 +42,8 @@ main p{
     max-height: 20%;
     text-align: left;
     width: 300px;
-    margin: 25px;   
+    margin: 25px; 
+     
 }
 
 div{
@@ -50,6 +51,7 @@ div{
     padding: 5px;
 }
 div#fundo1{
+    
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-size: 100%;
@@ -66,7 +68,7 @@ div#fundo2{
  div>p{
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.463);
-    
+    max-height: max-content;
     
 }
 footer{
