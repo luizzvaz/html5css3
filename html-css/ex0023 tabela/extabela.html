@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 800px;
+            background-color: gray;
+            color: whitesmoke;
+        }
+        td,th{
+            padding: 40px;
+            background-color: rgb(55, 54, 54);
+            border: 1px solid black;
+            
+        }
+        td:hover   ,th:hover{
+            background-color: rgba(0, 0, 255, 0.327);
+            color: yellow;
+        }
+        .mulher{
+            background-color: rgba(137, 43, 226, 0.332);
+        }
+        .homem{
+            background-color: rgba(165, 42, 42, 0.219);
+        }
+        .topicos{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th scope="col" class="topicos">grupo</th>
+            <th scope="col" class="topicos">nomes</th>
+            <th scope="colgroup" colspan="3"  class="topicos">filmes</th>
+            
+        </tr>
+        <tr>
+            <th scope="rowgroup" class="mulher  topicos " rowspan="3" >mulhesres</th>
+            <td class="mulher">ana maria</td>
+            <td >alien</td>
+            <td>rambo</td>
+            <td>vindadores</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td class="mulher">beatriz</td>
+            <td>inception</td>
+            <td>hulk</td>
+            <td>batman</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td class="mulher" >claudia melo</td>
+            <td>oblivion</td>
+            <td>matrix</td>
+            <td>big hero</td>
+            
+        </tr>
+        <tr>
+            <th scope="rowgroup" class="homem topicos" rowspan="3">homens</th>
+            <td class="homem">bruno mendonca</td>
+            <td>intocaveis</td>
+            <td>amnesia</td>
+            <td>gladiador</td>
+            
+            
+        </tr>
+        <tr>
+            
+            <td class="homem">daniel lourenco</td>
+            <td>wall-e</td>
+            <td>oldboy</td>
+            <td>dangal</td>
+            
+        </tr>
+        <tr>
+            
+            <td class="homem">fabiano mota</td>
+            <td>star wars 5</td>
+            <td>taxi driver</td>
+            <td>toy story</td>
+            
+        </tr>
+    </table>
+    
+</body>
+</html>
