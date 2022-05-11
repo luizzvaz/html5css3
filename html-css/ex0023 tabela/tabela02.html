@@ -9,16 +9,35 @@
         table{
             width: 500px;
             border-collapse: collapse;
-            
+            position: relative;
+        }
+        caption{
+            background-color: gray;
+            padding: 10px;
+            font-size: 1.5em;
+            color: white;
         }
         td , th{
             padding: 10px;
             border: 1px  solid black;
         }
+        thead {
+            position: sticky;
+            top: -1px;
+        }
         thead, tfoot{
             padding: 10px;
             color: greenyellow;
             background-color: gray;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(0, 0, 255, 0.393);
+        }
+        td.num{
+            text-align: right;
+        }
+        tr.zebra{
+            background-color: rgba(200, 255, 0, 0.484);
         }
     </style>
 </head>
@@ -26,29 +45,70 @@
     <h1>tabelas grandes</h1>
 
     <table>
+        <caption>população</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 100px ;">população</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="zebra">
                 <td>são paulo</td>
-                <td>49 950 000</td>
+                <td class="num">49 950 000</td>
             </tr>
             <tr>
                 <td>rio de janeiro</td>
-                <td>24859955</td>
+                <td class="num">24859955</td>
+            </tr>
+            <tr class="zebra">
+                <td>rio de janeiro</td>
+                <td class="num">24859955</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">24859955</td>
+            </tr>
+            <tr class="zebra">
+                <td>rio de janeiro</td>
+                <td class="num">24859955</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">24859955</td>
+            </tr>
+            <tr class="zebra">
+                <td>rio de janeiro</td>
+                <td class="num">24859955</td>
             </tr>
             <tr>
                 <td>minas gerais</td>
-                <td>84 5485 05</td>
+                <td class="num">84 5485 05</td>
+            </tr>
+            <tr class="zebra">
+                <td>minas gerais</td>
+                <td class="num">84 5485 05</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">84 5485 05</td>
+            </tr>
+            <tr class="zebra">
+                <td>minas gerais</td>
+                <td class="num">84 5485 05</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">84 5485 05</td>
+            </tr>
+            <tr class="zebra">
+                <td>minas gerais</td>
+                <td class="num">84 5485 05</td>
             </tr>
         </tbody>
         <tfoot>
-            <th>total</th>
-            <th>00000000</th>
+            <th scope="row">total hab</th>
+            <td>00000000</td>
         </tfoot>
     </table>
 
@@ -71,6 +131,13 @@
             </ul>
         </ul>
     </p>
-
+    <p>
+        para deixa a cabeça fixa 
+        <li>tabela position: relative;</li>
+        <li> thead
+            position: sticky;
+            top: -1px;
+        </li>
+    </p>
 </body>
 </html>
